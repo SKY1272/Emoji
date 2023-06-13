@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  background-color: blanchedalmond;
+}
+.Emoji-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 50%;
+  margin: auto;
+  /* gap: 10px; */
+  font-size: 20px;
+}
+input {
+  width: 40%;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 10px;
+}
